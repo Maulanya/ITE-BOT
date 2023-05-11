@@ -32,8 +32,9 @@ just type `npm i` in the console(cmd/powershell etc.) from the folder or type `c
 #### 4.Create `.env` file
 
 ```env
+PORT=3000
 TOKEN=Your bot token goes here
-GENIUS=if you want to have song lyrics functions( https://docs.genius.com/#/getting-started-h1 )
+imageapi=81ec44aee6ccbb692dabd2eb0e1454b7f0c5ef1dd805a939a291127eb26b0f5af5bb4a94f095bceade9417c25292e746504e378f2d0f3aa2864c3d775c32e76a
 ```
 
 #### 5.Start the bot
