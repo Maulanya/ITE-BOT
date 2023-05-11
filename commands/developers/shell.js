@@ -1,0 +1,32 @@
+const { MessageEmbed } = require('discord.js')
+const discord = require('discord.js')
+
+const child = require ('child_process')
+exports.run = async (client,message,args)=>{
+  if(message.author.id == '753298841712721961')  {
+      
+      const command = args.join(" ");
+      if(!command) return message.reply('pls specific a module to install');
+      
+      child.exec(command, (err, res) => {
+        if(err) return console.log(err);
+        message.channel.send(res.slice(0, 2000), { code: 'js'});
+      })
+      } else {
+     const permEmbed = new discord.MessageEmbed()
+     .setColor("#ff0000")
+     .setDescription("You don't have permission to use this command!")
+     message.channel.send(permEmbed)
+	}
+    };
+
+exports.info = {
+  name: 'shell',
+  aliases: ["terminal", "cmd"],
+  description: 'only owners can use so its point less to know the usage of this command xD',
+    usage : "<code>",
+ }
+exports.conf={
+  cooldown: 0,
+  dm: "yes"
+}
