@@ -79,6 +79,3 @@ Take a look in `TODO.md` for next steps you can try out in your new site!
 
 - Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
 - Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
-# 7394-7316-8384-8488
-# Pleux-Bot
-# Pleux-Bot
